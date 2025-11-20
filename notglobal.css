@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS for War of the Grafics*/
+
+#header {
+  display: flex;
+  align-items: center;        
+  justify-content: space-between;
+  padding: 10px 16px;         
+  background-color: rgba(175, 18, 18, 0.534);
+  border-radius: 12px;        
+}
+
+#title {
+  margin: 0;                   
+  font-variant: small-caps;
+  font-size: clamp(18px, 3.5vw, 40px);
+  text-align: left;
+  color: #fff;
+
+}
+
+
+#navigation {
+  display: flex;
+  gap: 8px;                   
+  align-items: center;         
+  padding: 0;                  
+}
+
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  font-size: 40px;             
+  line-height: 1;
+  border-radius: 15px;
+  border: 0;
+  background: #115c56;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+#navigation button a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;                  
+}
+
+
+body {
+   color:#ffffff;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#Center {
+  display: flex;
+  align-items: center;        
+  padding: 10px 16px;         
+  border-radius: 12px; 
+  justify-content: c;
+
+}
+
+#AMDphoto {
+border-color: #ffffff;
+border-width: 10px;
+
+}
+
+#navigation {
+  padding: 5px;
+  align-items: right;
+
+}
+
+
+#fatso {
+  padding: 30px;
+  margin: 5px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+
+
+}
+
+#notfatme {
+  background-size: cover;
+}
+
+#footer {
+
+  color: #ffffff;
+	background-color:  rgba(47, 117, 117, 0.8);
+	text-align: left;
+	font-size: x-small;
+	padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  position:inherit;
+  bottom: 0px;
+ 
+}
+
+.content {
+  display: flex;
+  align-items: left;        
+  padding: 10px 16px;  
+  justify-content: left;
+}
+
+
+.image-box {
+  background-image: url(../PagePhotos/data-center.jpg); /* adjust path */
+  background-size: cover;        /* fills box, crops as needed */
+  width: 700px;            /* set desired width */      
+  height: 220px;           /* box height */
+  margin: 24px auto;       /* center horizontally */
+  border-radius: 8px;      /* optional rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;    /* vertical center content */
+  justify-content: center; /* horizontal center content */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.content h2 {
+  margin: 0 0 6px 0;
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+#Mouse {
+  font-size: 85px;
+  color: black;
+  position: absolute; 
+  top: 460px;   
+  right: 4px;      
+}
+
+#photo1, #photo2, #photo3 {
+  width: 200px; 
+  height: 200px;
+ transform: rotate(45deg);
+
+}
+
+#photo2 {
+  position: absolute; 
+  top: 300px;   
+  left: 70%;
+  transform: rotate(300deg);
+}
